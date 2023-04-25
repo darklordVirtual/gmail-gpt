@@ -40,7 +40,6 @@ The GPT-3 Assistant for Gmail extension icon should now appear in your Chrome to
 
 3. Open Gmail and click the "Reply" button in any email conversation. The AI-generated response will be inserted into the reply field.
 
-Please note that AI-generated content may not be perfect and could require further editing. Additionally, this extension is for demonstration purposes only and is not officially supported by Gmail or OpenAI. Use at your own risk.
 
 ## Contributing
 
