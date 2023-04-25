@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "GPT-3 Assistant for Gmail",
+  "version": "1.0",
+  "description": "AI-assisted replies in Gmail using OpenAI GPT-3 API.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*"
+      ],
+      "js": ["js/content.js"],
+      "css": ["css/style.css"]
+    }
+  ],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  }
+}
