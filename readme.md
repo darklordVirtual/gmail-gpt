@@ -28,7 +28,7 @@ The GPT-3 Assistant for Gmail is a Chrome extension that integrates OpenAI's GPT
 
 4. Enable "Developer mode" by clicking the toggle switch in the top right corner.
 
-5. Click the "Load Unpacked" button and select the `gpt3_gmail_extension` directory.
+5. Click the "Load Unpacked" button and select the `gmail-gpt` directory.
 
 The GPT-3 Assistant for Gmail extension icon should now appear in your Chrome toolbar.
 
@@ -56,4 +56,4 @@ This project is released under the [MIT License](https://opensource.org/licenses
 
 ## Disclaimer
 
-Please note that the AI-generated content from OpenAI GPT-3 might not be perfect and could require further editing. Also, this plugin was created for demonstration purposes only and is not officially supported by Gmail or OpenAI. Use at your own risk.
+Please note that the AI-generated content from OpenAI GPT-3 might not be perfect and could require further editing. Also, this plugin is a work in progress. It is not officially supported by Gmail or OpenAI. Use at your own risk.
