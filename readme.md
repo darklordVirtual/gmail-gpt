@@ -19,7 +19,7 @@ The GPT-3 Assistant for Gmail is a Chrome extension that integrates OpenAI's GPT
 1. Clone this repository or download the ZIP file and extract it to a directory on your computer.
 
    ```
-   git clone https://github.com/darklordVirtual/gpt3_gmail_extension.git
+   git clone https://github.com/darklordVirtual/gmail-gpt.git
    ```
 
 2. Replace `'your_openai_api_key'` with your actual GPT-3 API key in the `js/content.js` file.
